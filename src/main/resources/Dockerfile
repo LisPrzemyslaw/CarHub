@@ -1,0 +1,8 @@
+FROM postgres:16
+
+
+ENV POSTGRES_USER=admin \
+    POSTGRES_PASSWORD=admin \
+    POSTGRES_DB=carhub
+
+EXPOSE 5432
